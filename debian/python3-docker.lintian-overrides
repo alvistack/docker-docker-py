@@ -1,0 +1,4 @@
+python3-docker: copyright-without-copyright-notice
+python3-docker: initial-upload-closes-no-bugs
+python3-docker: no-manual-page
+python3-docker: zero-byte-file-in-doc-directory
