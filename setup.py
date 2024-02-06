@@ -41,9 +41,7 @@ with codecs.open('./README.md', encoding='utf-8') as readme_md:
 
 setup(
     name="docker",
-    use_scm_version={
-        'write_to': 'docker/_version.py'
-    },
+    version="7.0.0",
     description="A Python library for the Docker Engine API.",
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -55,7 +53,6 @@ setup(
         'Tracker': 'https://github.com/docker/docker-py/issues',
     },
     packages=find_packages(exclude=["tests.*", "tests"]),
-    setup_requires=['setuptools_scm'],
     install_requires=requirements,
     tests_require=test_requirements,
     extras_require=extras_require,
