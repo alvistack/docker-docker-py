@@ -1,0 +1,4 @@
+python-docker source: file-without-copyright-information
+python-docker source: no-debian-changes
+python-docker source: source-contains-prebuilt-windows-binary
+python-docker source: source-package-encodes-python-version
